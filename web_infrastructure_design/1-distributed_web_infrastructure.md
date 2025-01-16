@@ -47,7 +47,7 @@
 
 ---
 
-### Load Balancer Algorithm & Setup**
+### Load Balancer Algorithm & Setup
 
 * **Algorithm:**  
   * We chose Round Robin in this example. It means the LB sends the first request to Server \#1, the next request to Server \#2, and so on, in a cycle.
@@ -93,4 +93,4 @@
    * Data in transit might not be fully secured if you’re not using TLS.  
 3. **No Monitoring**  
    * You can’t track server health or performance without a monitoring tool.  
-   * If something breaks, you only find out when users complain.**
+   * If something breaks, you only find out when users complain.
